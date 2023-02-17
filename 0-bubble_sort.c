@@ -23,6 +23,9 @@ void swap(int *a, int *b)
  */
 void  bubble_sort(int *array, size_t size)
 {
+	if (!array || size < 2)
+		return;
+
 	unsigned long int i, j;
 
 	for (i = 0; i < (size - 1); i++)
