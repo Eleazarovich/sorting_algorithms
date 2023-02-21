@@ -31,6 +31,7 @@ void quicksort_recursion(int *array, int low, int high, size_t size);
 void shell_sort(int *array, size_t size);
 size_t gap(size_t size);
 void counting_sort(int *array, size_t size);
+int max_integer(int *array, int size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 
